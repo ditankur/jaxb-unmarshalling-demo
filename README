@@ -1,0 +1,8 @@
+## The command to generate POJOs from XSD is
+
+    xjc -d <source-directory> -p <package-name> <your-file>.xsd
+
+## For example in this project the JAXB POJO classes are generated using
+## following command
+
+    xjc -d src\main\java -p com.ankur.mygradleapp duck1.xsd
