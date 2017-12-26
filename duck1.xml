@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ducks>
+    <duck>
+        <name>donald</name>
+        <color>white</color>
+        <home>pond</home>
+    </duck>
+    <duck>
+        <name>scroodge</name>
+        <color>grey</color>
+        <home>new york</home>
+    </duck>
+</ducks>

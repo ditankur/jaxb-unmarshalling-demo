@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ducks" type="ducksType"/>
+  <xs:complexType name="ducksType">
+    <xs:sequence>
+      <xs:element type="duckType" name="duck" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="duckType">
+    <xs:sequence>
+      <xs:element name="name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="donald"/>
+            <xs:enumeration value="scroodge"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="color">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="white"/>
+            <xs:enumeration value="grey"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="home">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="pond"/>
+            <xs:enumeration value="new york"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
