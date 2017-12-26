@@ -12,13 +12,14 @@
    you will see the results on the console.
 
 
-Although the following information is not required to run this application, but still it will be 
+## Although the following information is not required to run this application, but still it will be useful
+## if you have your own xsd file and you want to generate the POJO classes. If you are using Eclipse or Intellij 
+## Ultimate edition you can generate the POJO classes from the IDE. 
 
-## The command to generate POJOs from XSD is
+## Using command prompt / terminal you have to run the following command
 
     xjc -d <source-directory> -p <package-name> <your-file>.xsd
 
-## For example in this project the JAXB POJO classes are generated using
-## following command
+## For example, in this project the JAXB POJO classes are generated using following command
 
     xjc -d src\main\java -p com.ankur.mygradleapp ducks.xsd
