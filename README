@@ -5,4 +5,4 @@
 ## For example in this project the JAXB POJO classes are generated using
 ## following command
 
-    xjc -d src\main\java -p com.ankur.mygradleapp duck1.xsd
+    xjc -d src\main\java -p com.ankur.mygradleapp ducks.xsd
