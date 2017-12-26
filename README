@@ -1,3 +1,19 @@
+## This is a sample application that demonstrates the JAXB unmarshalling. It unmarshals the ducks.xml file containing
+## data into Java POJOs and prints the result on the console. This is a gradle based application but you don't need to
+## have gradle installed on your machine. The first time you build the applcation, gradle will be installed automatically.
+
+1. Clone the project.
+
+2. Navigate to the project's root directory using command prompt in Windows / terminal in Mac
+
+3. Run 'gradlew build' on Windows. If using Mac, run './gradlew build'. This will build your application.
+
+4. Run 'gradlew run' on Windows. If using Mac, run './gradlew run'. This will run your application and
+   you will see the results on the console.
+
+
+Although the following information is not required to run this application, but still it will be 
+
 ## The command to generate POJOs from XSD is
 
     xjc -d <source-directory> -p <package-name> <your-file>.xsd
